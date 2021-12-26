@@ -1,0 +1,20 @@
+{
+    "name": "yangqingrong/db_examples",
+    "description": "examples for yangqingrong/db",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "yangqingrong",
+            "email": "13714715608@139.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "DB\\": "/www/open/db/db/src/DB/",
+            "app\\" :"app/"
+        }
+    }
+    
+}
