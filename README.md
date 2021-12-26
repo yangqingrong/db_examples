@@ -1,5 +1,5 @@
 # db_examples
- examples for repository yangqingrong/db
+ examples for repository `https://github.com/yangqingrong/db`
 
 # Installation
 1. import file `w_user.sql` in to your mysql/mariadb database.

@@ -7,9 +7,10 @@
  */
 
 echo "\nphp version: ". PHP_VERSION ."\n";
-if( floatval( PHP_VERSION)<8 ){
-    echo "require php8\n"; exit();
+if( PHP_VERSION_ID < 80000 ){
+    echo "ERROR: require php8! lower version has not attribute feature.\n"; exit();
 }
+ 
 
 define('BASE_PATH', __DIR__ );
 
