@@ -2,8 +2,8 @@
  examples for repository yangqingrong/db
 
 # Installation
-
-edit the mysql connnection information in file `config/database.php`
+1. import file `w_user.sql` in to your mysql/mariadb database.
+2. edit the mysql connnection information in file `config/database.php`
 
 # run
 ```
@@ -13,3 +13,6 @@ this command will run the controller && action :`app\index\controller\Index::ind
 
 # model 
 `app\index\model\User`
+
+# LICENSE
+The MIT License
