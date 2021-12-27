@@ -14,7 +14,7 @@ use DB\Attributes\Column;
  * #[Table(name:'user' , alias:'user', connection :'default' )]
  */
  
-#[Table(name: 'user')]
+#[Table( name: 'user')]
 class User extends Model {
     
     #[PrimaryKey]

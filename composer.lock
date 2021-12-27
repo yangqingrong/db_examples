@@ -4,12 +4,53 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5f4ba2abc88d2028b25897bc1cb9a4ad",
-    "packages": [],
+    "content-hash": "0a366368a02585ff904dbfb184a26071",
+    "packages": [
+        {
+            "name": "yangqingrong/db",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yangqingrong/db.git",
+                "reference": "5e06db3388060507269ec9cdd53c76d343f54693"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yangqingrong/db/zipball/5e06db3388060507269ec9cdd53c76d343f54693",
+                "reference": "5e06db3388060507269ec9cdd53c76d343f54693",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "DB\\": "src/DB/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "wudimei",
+                    "email": "1@wudimei.com"
+                }
+            ],
+            "description": "php8 ORM",
+            "support": {
+                "issues": "https://github.com/yangqingrong/db/issues",
+                "source": "https://github.com/yangqingrong/db/tree/main"
+            },
+            "time": "2021-12-27T07:22:52+00:00"
+        }
+    ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "yangqingrong/db": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],

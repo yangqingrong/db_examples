@@ -9,10 +9,12 @@
             "email": "13714715608@139.com"
         }
     ],
-    "require": {},
+    "require": {
+        "yangqingrong/db": "dev-main"
+    },
     "autoload": {
         "psr-4": {
-            "DB\\": "/www/open/db/db/src/DB/",
+            
             "app\\" :"app/"
         }
     }
